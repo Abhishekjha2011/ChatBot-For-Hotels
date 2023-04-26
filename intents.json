@@ -1,0 +1,137 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How may I assist you?",
+        "Hi there! How can I help you today?",
+        "Hey! What can I do for you?",
+        "Good [morning/afternoon/evening]! How can I assist you?",
+        "Welcome to our hotel chatbot! How may I help you today?"
+      ]
+    },
+    {
+      "tag": "roomAvailability",
+      "patterns": [
+        "do you have any rooms available?",
+        "are there any rooms available?",
+        "what is the room availability?",
+        "can I book a room?"
+      ],
+      "responses": [
+        "Yes, we have several rooms available. Would you like me to check availability for your preferred dates?",
+        "Yes, we do have rooms available. What dates are you interested in?",
+        "We have rooms available. What dates are you looking to book for?",
+        "Certainly, we have rooms available. What dates would you like to book for?"
+      ]
+    },
+    {
+      "tag": "roomTypes",
+      "patterns": [
+        "what types of rooms do you have?",
+        "what kind of rooms are available?",
+        "can you tell me about the different room types?",
+        "what are the room options?"
+      ],
+      "responses": [
+        "We offer a variety of room types, including standard rooms, deluxe rooms, and suites. Would you like more information on any of these?",
+        "Our hotel has a range of room types available, including standard rooms, deluxe rooms, and suites. Which one are you interested in?",
+        "We have several room options available, including standard rooms, deluxe rooms, and suites. Would you like more information on any of these?"
+      ]
+    },
+    {
+      "tag": "roomPrices",
+      "patterns": [
+        "what are the room rates?",
+        "how much does it cost to book a room?",
+        "what are the prices for the different room types?"
+      ],
+      "responses": [
+        "Room rates vary depending on the type of room you choose and the dates of your stay. Would you like me to check prices for you?",
+        "Room prices vary depending on the type of room and the dates of your stay. What dates are you looking to book for?",
+        "Our room rates vary depending on the type of room you choose and the dates of your stay. Would you like more information on any of our room types?",
+        "We have different room rates for our various room types. What type of room are you interested in?"
+      ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "what amenities does the hotel offer?",
+        "what facilities are available?",
+        "what are the hotel features?"
+      ],
+      "responses": [
+        "Our hotel offers a variety of amenities, including a fitness center, swimming pool, restaurant, bar, and free Wi-Fi. Would you like more information on any of these?",
+        "We have several facilities available for our guests, including a fitness center, swimming pool, restaurant, bar, and free Wi-Fi. Which one are you interested in?",
+        "Our hotel has a number of features available for our guests, including a fitness center, swimming pool, restaurant, bar, and free Wi-Fi. Would you like more information on any of these?"
+      ]
+  },
+  {
+    "tag": "bookingConfirmation" ,
+    "patterns": [
+    "I want to book a room",
+    "Can you help me make a reservation?",
+    "I would like to reserve a room for [dates]"
+    ],
+    "responses": [
+    "Sure, I can help you with that. What dates are you looking to book for?",
+    "Of course, let me check availability for the dates you're interested in. What dates would you like to book for?",
+    "Certainly, I'd be happy to assist you with your reservation. What dates are you considering?"
+    ]
+    },
+
+    {
+    "tag": "cancellationPolicy" ,
+    "patterns": [
+    "What is your cancellation policy?",
+    "Can I cancel my reservation?",
+    "What is the penalty for cancelling a reservation?"
+    ],
+    "responses": [
+    "Our cancellation policy varies depending on the room type and the dates of your stay. Would you like me to check the policy for your reservation?",
+    "Yes, you can cancel your reservation, but please be aware that our cancellation policy may apply. Would you like more information on our policy?",
+    "Our cancellation policy depends on the room type and the dates of your stay. Would you like more information on the policy for your specific reservation?"
+    ]
+    },
+
+    {
+    "tag":"checkInCheckOut",
+    "patterns": [
+    "What time is check-in/check-out?",
+    "When can I check in/check out?",
+    "Can I check in/check out early/late?"
+    ],
+    "responses": [
+    "Check-in time is at [time], and check-out time is at [time].",
+    "Our standard check-in time is at [time], and check-out time is at [time]. If you need to check in earlier or check out later, please let us know and we'll do our best to accommodate your request.",
+    "We can arrange for an early check-in or late check-out, depending on availability. Please let us know your preferred time and we'll do our best to accommodate your request."
+    ]
+    },
+
+    {
+    "tag": "specialRequests" ,
+    "patterns": [
+    "Can I request a specific room location?",
+    "Do you offer any special amenities or services?",
+    "Can I request a late check-out?"
+    ],
+    "responses": [
+    "Yes, you can make special requests such as a specific room location or additional amenities. Please let us know what you need and we'll do our best to accommodate your request.",
+    "We offer a variety of special amenities and services, such as room service, a SPA, and a business center. Would you like more information on any of these?",
+    "Late check-out requests are subject to availability. Please let us know your preferred time and we'll do our best to accommodate your request."
+    ]
+    }
+]
+}
+
+  
+    
+     
